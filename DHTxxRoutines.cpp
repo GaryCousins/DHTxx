@@ -158,7 +158,6 @@ int readDHTxxSensor(float* temperature, float* humidity)
       }
       else
       { // Timeout has occured
-        Serial.println("Marker3");
         return DHT_TIMEOUT;
       }
     }
@@ -178,7 +177,7 @@ int readDHTxxSensor(float* temperature, float* humidity)
     return DHT_OK;
   }
   else
-  { Serial.println("Marker4");
+  {
     return DHT_BAD_CS;
   }
 }
