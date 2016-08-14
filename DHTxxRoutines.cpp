@@ -61,7 +61,7 @@ int initDHTxxSensor(int pin)
 int closeDHTxxSensor()
 {
   // Check if the library is already setup
-  if (DHTInitalised)
+  if (!DHTInitalised)
     return DHT_NOT_INIT;
 
   DHTInitalised = false;        // Mark the library as deinitialised
