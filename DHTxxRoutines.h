@@ -15,7 +15,7 @@
 // ---------------------------------------------------------------------
 #define DHT_OK           0
 #define DHT_NOT_INIT     1
-#define HDT_ALREADY_INIT 2
+#define DHT_ALREADY_INIT 2
 #define DHT_INVALID_PIN  3
 #define DHT_TIMEOUT      4
 #define DHT_BAD_CS       5
