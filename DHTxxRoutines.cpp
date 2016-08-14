@@ -10,12 +10,6 @@
 // is the responsibility of the end user to ensure this code is fit
 // for purpose.
 
-// NOTES:
-// print statement fucj up the timing
-// need to get a handle onthe timing accuracy
-// arbitary split on the pulse width at present. Undefined regions
-// Need to conver bits to bytes and return values.
-
 // ---------------------------------------------------------------------
 // Include files
 #include <Arduino.h>        // Need all the standard definitions
