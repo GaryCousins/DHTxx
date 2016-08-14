@@ -4,9 +4,9 @@
 // Date: 09/08/16
 // Platform: Arduniuo UNO
 
-// This code can be used, modified and distributed without limitiation
-// but the author takes no repsonsibility of loss or damages incured as
-// a result.  The author offers no support or warrenty of any kind.  It
+// This code can be used, modified and distributed without limitation
+// but the author takes no responsibility of loss or damages incurred as
+// a result.  The author offers no support or warranty of any kind.  It
 // is the responsibility of the end user to ensure this code is fit
 // for purpose.
 
@@ -18,7 +18,7 @@
 
 void setup()
 {
-  // Don't use the setup funtion
+  // Don't use the setup function
 }
 
 // ---------------------------------------------------------------------
