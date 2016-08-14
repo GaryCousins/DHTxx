@@ -37,7 +37,7 @@ int initDHTxxSensor(int pin)
 {
   // Check if the library is already setup
   if (DHTInitalised)
-    return HDT_ALREADY_INIT;
+    return DHT_ALREADY_INIT;
 
   // Set register bank to operate with based on pin selected
   // Set interrupt on the correct bank for the correct pin
