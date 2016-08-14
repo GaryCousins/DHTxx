@@ -108,7 +108,6 @@ int readDHTxxSensor(float* temperature, float* humidity)
   if (timer_now >= DHT_TIMEOUT_US)
     return DHT_TIMEOUT;
 
-  //  Serial.print("Wait for 80us high to finish: ");
   // Then high for 80uS
   timer_now = 0;
   timer_start = micros();
@@ -151,12 +150,10 @@ int readDHTxxSensor(float* temperature, float* humidity)
       // Check to see what the result is
       if (timer_now < DHT_LEVEL_US)  // '0' Threshold
       { // Do nothing
-        //       Serial.println("Marker");
         ;
       }
       else if (timer_now < DHT_TIMEOUT_US) // 'Timeout' Threshold
       { // Mask in a '1' at the right bit position
-        //       Serial.println("Marker2");
         byteStore[byteCount] = byteStore[byteCount] + (HIGH << (7 - bitCount));
       }
       else
